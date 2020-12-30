@@ -132,7 +132,7 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-#extra_link_args.append("-liomp5_db")
+extra_link_args.append("-liomp5_db")
     
 ext_module = Extension(
     "pyqg.kernel",
